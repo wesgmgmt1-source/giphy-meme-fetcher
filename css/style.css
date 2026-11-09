@@ -1,1 +1,28 @@
-/* Add any custom CSS stylings you want here */
+/* Add any custom CSS stylings you want here */body {
+  background-color: #f3ead9;
+  color: #3b2a1e;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.btn-fetch {
+  background-color: #c8452f;
+  border-color: #c8452f;
+  color: #fff;
+}
+
+.btn-fetch:hover,
+.btn-fetch:focus-visible {
+  background-color: #a8371f;
+  border-color: #a8371f;
+  color: #fff;
+}
+
+#gif-container img {
+  border-radius: 8px;
+  object-fit: cover;
+  height: 200px;
+}
